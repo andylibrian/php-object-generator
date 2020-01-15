@@ -19,3 +19,7 @@ The time you save can be spent on more interesting areas of your project.
 
 ## Use without Install
 * [http://phpobjectgenerator.com](http://phpobjectgenerator.com)
+
+## Setup locally
+
+- add `127.0.0.1 beta.phpobjectgenerator.com www.phpobjectgenerator.com phpobjectgenerator.com` to `/etc/hosts`
