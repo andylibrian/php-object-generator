@@ -7,7 +7,7 @@ include 'objects/class.child.php';
 
 //setsiblinglist
 
-$object = new Object();
+$object = new XObject();
 
 $object->Escape();
 

@@ -112,6 +112,5 @@ function tla_decodeXML($xmlstg)
 	return $retarr;
 }
 
-tla_ads();
 
 ?>

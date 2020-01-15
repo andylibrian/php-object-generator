@@ -84,7 +84,7 @@ class ServiceClass
 				require_once "../object_factory/class.objectphp5pogmysql.php";
 			}
 		}
-		$object = new Object($objectName,$attributeList,$typeList,$pdoDriver, $language, $classList);
+		$object = new XObject($objectName,$attributeList,$typeList,$pdoDriver, $language, $classList);
 		$object->BeginObject();
 		$object->CreateMagicGetterFunction();
 		$object->CreateConstructor();

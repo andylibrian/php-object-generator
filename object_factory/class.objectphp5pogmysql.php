@@ -1,5 +1,5 @@
 <?php
-class Object
+class XObject
 {
 	var $string;
 	var $sql;
@@ -10,7 +10,7 @@ class Object
 	var $language = 'php5';
 
 	// -------------------------------------------------------------
-	function Object($objectName, $attributeList = '', $typeList ='', $pdoDriver = '', $language = 'php5')
+	function XObject($objectName, $attributeList = '', $typeList ='', $pdoDriver = '', $language = 'php5')
 	{
 		$this->objectName = $objectName;
 		$this->attributeList = $attributeList;
